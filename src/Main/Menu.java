@@ -20,7 +20,7 @@ public class Menu extends JFrame {//ahora la clase ventana es hija de JFrame y t
 		setTitle("MENU");
 		setLayout(null);
 		
-		btn1 = new JButton();//creo boton
+		btn1 = new JButton(); /*creo boton*/
 		btn1.setText("Ejercicio 1");
 		btn1.setBounds(100, 50, 140, 30);
 		btn1.addActionListener(new BttnEjercicio1());		
@@ -45,13 +45,14 @@ public class Menu extends JFrame {//ahora la clase ventana es hija de JFrame y t
 class BttnEjercicio1 implements ActionListener
 {
 	
-	@Override
 	public void actionPerformed(ActionEvent e) {
 		System.out.println("Se esta aprentando Ejercicio 1");
 		
 	}
 	
 }
+
+
 	
 	
 }

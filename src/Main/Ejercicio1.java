@@ -130,7 +130,6 @@ public class Ejercicio1 extends JFrame {
 
 		
 
-		@Override
 		public void actionPerformed(ActionEvent e) 
 		{
 			System.out.println("------Datos Ingresasdos\nNombre : "+txtNombre.getText()+"\nApellido :"+txtApellido.getText()+"\nTelefono : "+txtTelefono.getText()+"\nFecha de nacimiento : "+txtFechaDeNac.getText());
